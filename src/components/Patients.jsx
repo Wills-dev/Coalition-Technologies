@@ -17,6 +17,7 @@ const Patients = ({ Patientss, setSelectedPatient }) => {
             <div
               className="flex justify-between items-center py-3 px-2 hover:bg-[#D8FCF7] transition-none"
               key={index}
+              onClick={() => setSelectedPatient(patient)}
             >
               <div className="flex gap-1 items-center">
                 <img
